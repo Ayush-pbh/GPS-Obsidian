@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"type":"text","text":"Welcome Screen","id":"5e3d467a69a2d695","x":-1280,"y":230,"width":250,"height":60,"color":"5"},
+		{"type":"text","text":"Registration Page","id":"873428bf0495d9d0","x":-980,"y":380,"width":250,"height":60,"color":"5"},
+		{"type":"text","text":"This page collects data from the user like\n\tfull-name\n\tphone\n\temail\n\tpassword\n\tdob\n\tuserType\n\nan sends the data to /register, creating a new user with the above details. but the phone and email of the user is not yet validated. So it is responsibility of the user to validate the phone and email within 24 hours of account creation. Else his account will be deleted. \n","id":"bef3f8c1b4df590f","x":-1526,"y":560,"width":492,"height":522,"color":"4"},
+		{"type":"text","text":"Validate Phone","id":"73c9839beb0c22ce","x":-640,"y":480,"width":250,"height":50,"color":"5"},
+		{"type":"text","text":"Validate Email","id":"b090fcc30b269125","x":-340,"y":475,"width":250,"height":60,"color":"5"},
+		{"type":"text","text":"Validate Email & Phone using the otp system of the backend.","id":"984249d9e427ff26","x":-1280,"y":1260,"width":329,"height":212,"color":"4"},
+		{"type":"text","text":"SEND user to the login page.\nNow the user is created with basic details and his phone and email is now validated. \nSo the user is allowed to login in into the application.\nUser will not be allowed to bid on any auction or any important features will be turned off till he completes his KYC\nKYC will be done in the profile page of the user.\nIn the user profile page there will be cards available that will prompt him to complete his KYC\n\n\nKYC : Entering user address. Aadhar number. and waiting for it to be validated. ","id":"2749f7aabf6b3b20","x":9,"y":586,"width":511,"height":496,"color":"4"},
+		{"type":"text","text":"NOTE : During the account creation of the user we were not asking for his address and stuff like that. But our backend does require these things to create a user. So all the fields are populated with \"no-data\". i.e. Fields that contain no-data were never filled in the first place.\n","id":"cd4b9cb7fe64d07f","x":253,"y":189,"width":467,"height":211,"color":"1"},
+		{"type":"text","text":"UI Pages ","id":"c17e246b30d7e10b","x":-764,"y":16,"width":250,"height":60},
+		{"type":"text","text":"# Registration Process UI and backend integration workflow\n","id":"83be1cc56de30801","x":-400,"y":16,"width":620,"height":60,"color":"3"},
+		{"type":"text","text":"","id":"00f707026051bb8b","x":820,"y":380,"width":384,"height":607,"color":"4"},
+		{"type":"text","text":"","id":"7c531506c8cf14fc","x":840,"y":400,"width":320,"height":60}
+	],
+	"edges":[
+		{"id":"8f2be48f190d7a5e","fromNode":"5e3d467a69a2d695","fromSide":"right","toNode":"873428bf0495d9d0","toSide":"left","color":"3"},
+		{"id":"d928949ad2ff4751","fromNode":"873428bf0495d9d0","fromSide":"right","toNode":"73c9839beb0c22ce","toSide":"left","color":"3"},
+		{"id":"b952955b168634f2","fromNode":"873428bf0495d9d0","fromSide":"bottom","toNode":"bef3f8c1b4df590f","toSide":"right","color":"5"},
+		{"id":"b4a3de692df3514b","fromNode":"73c9839beb0c22ce","fromSide":"right","toNode":"b090fcc30b269125","toSide":"left","color":"3"},
+		{"id":"d065e6374b7b2a3e","fromNode":"73c9839beb0c22ce","fromSide":"bottom","toNode":"984249d9e427ff26","toSide":"right","color":"5"},
+		{"id":"9301188f4f6ebf2f","fromNode":"b090fcc30b269125","fromSide":"bottom","toNode":"984249d9e427ff26","toSide":"right","color":"5"},
+		{"id":"4d80d9ab8002e85d","fromNode":"b090fcc30b269125","fromSide":"right","toNode":"2749f7aabf6b3b20","toSide":"left","color":"2"},
+		{"id":"445ab8f4bac33074","fromNode":"c17e246b30d7e10b","fromSide":"bottom","toNode":"5e3d467a69a2d695","toSide":"top"},
+		{"id":"ce1da87c1834d580","fromNode":"c17e246b30d7e10b","fromSide":"bottom","toNode":"873428bf0495d9d0","toSide":"top"},
+		{"id":"68bb6d3176567c16","fromNode":"c17e246b30d7e10b","fromSide":"bottom","toNode":"73c9839beb0c22ce","toSide":"top"},
+		{"id":"5cbab24175d2da14","fromNode":"c17e246b30d7e10b","fromSide":"bottom","toNode":"b090fcc30b269125","toSide":"top"}
+	]
+}

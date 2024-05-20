@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"debf9e79458be3c2","x":-505,"y":-266,"width":245,"height":106,"color":"3","type":"text","text":"Farmer Register\nPOST /user/register"},
+		{"id":"d7d4e8f5f0dfb189","x":-100,"y":-200,"width":258,"height":123,"color":"3","type":"text","text":"Farmer Verify\nChange value to true in database"},
+		{"id":"a6d0d8a1e8e443cb","x":321,"y":-65,"width":239,"height":165,"type":"text","text":"Farmer -- LOGIN -- \nPOST /verify/login\n\n\nAdding send mail feature\n"}
+	],
+	"edges":[
+		{"id":"fd6b406484608823","fromNode":"debf9e79458be3c2","fromSide":"right","toNode":"d7d4e8f5f0dfb189","toSide":"left"},
+		{"id":"6e95b6958d1368e6","fromNode":"d7d4e8f5f0dfb189","fromSide":"right","toNode":"a6d0d8a1e8e443cb","toSide":"left"}
+	]
+}
